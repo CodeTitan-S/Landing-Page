@@ -129,3 +129,67 @@ button {
     text-align: center;
 }
 
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 58px;
+    gap: 28px;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+}
+
+.card .text {
+    font-style: italic;
+}
+.card p {
+    margin-left: auto;
+    padding-right: 16px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 86px 0px;
+
+    
+}
+
+.cta-main {
+    display: flex;
+    background-color: #3882F6;
+    padding: 24px 48px;
+    border-radius: 10px;
+    color: white;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text {
+    font-weight: 300;
+}
+
+.cta-text h3 {
+    padding: 0;
+    margin:  10px 0px;
+}
+.cta-text p {
+    margin: 0;
+}
+
+.cta-main button {
+    border-color: white;
+    border-style: solid;
+}
