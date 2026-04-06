@@ -78,3 +78,54 @@ button {
     width: 500px;
     flex-shrink: 0;
 }
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5e7eb;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px;
+}
+
+.content h3 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.content .GOAT {
+    display: flex;
+    gap: 54px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.item p {
+    font-weight: 700;
+}
+
+.item img {
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+}
+
+.item .text {
+    font-size: 16px;
+    flex-wrap: wrap;
+    color: #7c7c7c;
+    text-align: center;
+}
+
